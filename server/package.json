@@ -1,0 +1,29 @@
+{
+  "name": "shortly",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "generate": "drizzle-kit generate",
+    "dev": "bun --hot index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/cookie-parser": "^1.4.7",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/pg": "^8.11.10",
+    "@types/qrcode": "^1.5.5",
+    "drizzle-kit": "^0.28.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "drizzle-orm": "^0.36.3",
+    "express": "^4.21.1",
+    "pg": "^8.13.1",
+    "qrcode": "^1.5.4"
+  }
+}
